@@ -1,0 +1,76 @@
+# do not touch this line
+configVersion: 2
+
+name: zigTest
+description: testing zigbee
+keywords: 'test, zigbee, lights, smart, home'
+displayName: Zigbee Test
+
+integrations:
+  - zigbee
+
+events:
+  - discover
+  - reset
+  - toggle
+  - off
+  - on
+  - blue
+  - red
+  - green
+  - clear
+  - dim
+
+screens:
+  - - discover
+  - - reset
+  - - changeColor
+  - - toggle
+  - - off
+  - - on
+  - - dim
+
+widgets:
+  discover:
+    control: button
+    event: discover
+    value: Discover
+    label: Discover Lights
+  reset:
+    control: button
+    event: reset
+    value: Reset
+    label: Reset
+  changeColor:
+    control: button
+    map:
+      - event: blue
+        value: Blue
+      - event: red
+        value: Red
+      - event: green
+        value: Green
+      - event: clear
+        value: Clear
+    label: Change Color of Lights
+  toggle:
+    control: switch
+    event: toggle
+    value: On/Off
+    label: Toggle On/Off Lights
+  off:
+    control: button
+    event: off
+    value: OFF
+    label: Turn Off Lights
+  on:
+    control: button
+    event: on
+    value: ON
+    label: Turn On Lights
+  dim:
+    control: range
+    event: dim
+    min: 0
+    max: 100
+    label: Dim
