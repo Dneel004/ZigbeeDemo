@@ -1,8 +1,7 @@
 ![alt text](https://avatars3.githubusercontent.com/u/15808325?v=4&s=200)
 
-Test app for zigbee capable lights such as philips hue lights. 
-
 # MATRIX Creator: Zigbee Demo
+Purpose: Test app for zigbee capable lights such as philips hue lights. 
 
 You can control this app from the command line or the Matrix dashboard. 
 
@@ -37,3 +36,4 @@ Tap the app and the dashboard will appear and you can interact with the lights f
 
 Matrix Creator docs:
 https://matrix-io.github.io/matrix-documentation/matrix-core/
+##### Tutorial video coming soon:
