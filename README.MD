@@ -1,7 +1,8 @@
 ![alt text](https://avatars3.githubusercontent.com/u/15808325?v=4&s=200)
+
 Test app for zigbee capable lights such as philips hue lights. 
 
-# MATRIX Creator: Zigbee 
+# MATRIX Creator: Zigbee Demo
 
 You can control this app from the command line or the Matrix dashboard. 
 
